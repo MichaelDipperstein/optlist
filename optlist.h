@@ -9,7 +9,7 @@
 ****************************************************************************
 *
 * OptList: A command line option parsing library
-* Copyright (C) 2007, 20014 by
+* Copyright (C) 2007, 20014, 2018 by
 * Michael Dipperstein (mdipper@alumni.engr.ucsb.edu)
 *
 * This file is part of the OptList library.
@@ -59,6 +59,11 @@ typedef struct option_t
 *                               PROTOTYPES
 ***************************************************************************/
 
+#if defined __cplusplus
+extern "C"
+{
+#endif
+
 /* returns a linked list of options and arguments similar to getopt() */
 option_t *GetOptList(const int argc, char *const argv[], char *const options);
 
@@ -67,5 +72,9 @@ void FreeOptList(option_t *list);
 
 /* return a pointer to file name in a full path.  useful for argv[0] */
 char *FindFileName(const char *const fullPath);
+
+#if defined __cplusplus
+}
+#endif
 
 #endif  /* ndef OPTLIST_H */
