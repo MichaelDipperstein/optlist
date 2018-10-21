@@ -65,7 +65,8 @@ extern "C"
 #endif
 
 /* returns a linked list of options and arguments similar to getopt() */
-option_t *GetOptList(const int argc, char *const argv[], char *const options);
+option_t *GetOptList(const int argc, char *const argv[],
+    const char *const options);
 
 /* frees the linked list of option_t returned by GetOptList */
 void FreeOptList(option_t *list);

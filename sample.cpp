@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 
     /* get list of command line options and their arguments */
     optList = NULL;
-    optList = GetOptList(argc, argv, const_cast<char *>("a:bcd:ef?"));
+    optList = GetOptList(argc, argv, "a:bcd:ef?");
 
     /* display results of parsing */
     while (optList != NULL)
