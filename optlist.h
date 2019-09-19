@@ -10,7 +10,7 @@
 *
 * OptList: A command line option parsing library
 * Copyright (C) 2007, 20014, 2018 by
-* Michael Dipperstein (mdipper@alumni.engr.ucsb.edu)
+* Michael Dipperstein (mdipperstein@gmail.com)
 *
 * This file is part of the OptList library.
 *

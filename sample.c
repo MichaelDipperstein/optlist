@@ -10,7 +10,7 @@
 *
 * Sample: A optlist library sample usage program
 * Copyright (C) 2007, 2014 by
-* Michael Dipperstein (mdipper@alumni.engr.ucsb.edu)
+* Michael Dipperstein (mdipperstein@gmail.com)
 *
 * This file is part of the optlist library.
 *

@@ -74,6 +74,7 @@ HISTORY
             Tighter adherence to Michael Barr's "Top 10 Bug-Killing Coding
             Standard Rules" (http://www.barrgroup.com/webinars/10rules).
 10/18/18  - Made header compatible with c++ and added c++ example
+09/19/19  - change e-mail address from ucsb to gmail
 
 TODO
 ----
@@ -81,4 +82,4 @@ TODO
 
 AUTHOR
 ------
-Michael Dipperstein (mdipper@alumni.engr.ucsb.edu)
+Michael Dipperstein (mdipperstein@gmail.com)
